@@ -23,6 +23,14 @@
 	<script type="text/javascript" src="../scrollmagic/uncompressed/ScrollMagic.js"></script>
 	<script type="text/javascript" src="../scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
 	<script type="text/javascript" src="../scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
+	<script type="text/javascript">
+		function preloadImages(images) {
+			for (var i = 0; i < images.length; i++) {
+				var img = document.createElement('img');
+				img.src = images[i];
+			}
+		}
+	</script>
 </head>
 <body style="background-color: #45b6f4;">
 	<div id="content-wrapper">
@@ -77,6 +85,8 @@
 							"fotogramas/animacion-26.png",
 							"fotogramas/animacion_1-27.png",
 						];
+
+						preloadImages(images1);
 						// TweenMax can tween any property of any object. We use this object to cycle through the array
 						var obj1 = {curImg: 0};
 
@@ -149,6 +159,9 @@
 							"fotogramas_2/animacion_2-22.png",
 
 						];
+
+						preloadImages(images2);
+
 						// TweenMax can tween any property of any object. We use this object to cycle through the array
 						var obj2 = {curImg: 0};
 
@@ -216,6 +229,8 @@
 							"fotogramas_3/animacion_3-18.png",
 							"fotogramas_3/animacion_3-19.png",
 						];
+
+						preloadImages(images3);
 						// TweenMax can tween any property of any object. We use this object to cycle through the array
 						var obj3 = {curImg: 0};
 
