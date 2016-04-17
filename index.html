@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="author" content=""/>
+	<meta name="description" content="III escuela de verano artediez - cursos de diseño">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<!-- <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
+	<title>III Escuela de Verano Artediez</title>
+
+	<!-- Stylesheets -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7cOpen+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+	<!-- jQuery Files -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+	<!-- Royal Preloader -->
+	<link rel="stylesheet" type="text/css" href="css/royal_preloader.css" />
+	<script type="text/javascript" src="js/royal_preloader.min.js"></script>
+	<script type="text/javascript">
+
+		// Change to your image paths
+	    var images = {
+	    	'slide1':     		'',
+	    	'team-member1':     '',
+	    	'team-member2':     '',
+	        'branding1':     	'',
+	        'branding2':     	'',
+	        'branding3':    	'',
+	        'print1':  			'',
+	        'print2':     		'',
+	        'print3':   		'',
+	        'web1':   			'',
+	        'web2':   			'',
+	        'web3':   			'',
+	        'branding1thumb':   '',
+	        'branding2thumb':   '',
+	        'branding3thumb':   '',
+	        'print1thumb':   	'',
+	        'print2thumb':   	'',
+	        'print3thumb':   	'',
+	        'web1thumb':   		'',
+	        'web2thumb':  		'',
+	        'web3thumb':   		'',
+	        'quote1':     		'',
+	    };
+	 
+	    // config
+	    Royal_Preloader.config({
+	        mode:       'text',
+	        images:     images,
+	        timeout:    10,
+	        showInfo:   false,
+	        background: ['#45b6f4']
+	    });
+	</script>
+
+	<!-- Icon Fonts -->
+	<link href='css/ionicons.min.css' rel='stylesheet' type='text/css'>
+
+	<!-- Magic Scroll -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic|Josefin+Slab:400,700italic' rel='stylesheet' type='text/css'>
+
+	<script type="text/javascript" src="js/lib/jquery.min.js"></script>
+	<script type="text/javascript" src="js/lib/highlight.pack.js"></script>
+	<script type="text/javascript" src="js/lib/modernizr.custom.min.js"></script>
+	
+	<script type="text/javascript" src="js/lib/greensock/TweenMax.min.js"></script>
+	<script type="text/javascript" src="scrollmagic/uncompressed/ScrollMagic.js"></script>
+	<script type="text/javascript" src="scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
+	<script type="text/javascript" src="scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
+	<script type="text/javascript">
+		function preloadImages(images) {
+			for (var i = 0; i < images.length; i++) {
+				var img = document.createElement('img');
+				img.src = images[i];
+			}
+		}
+	</script>
+	<!-- End Magic Scroll -->
+	
+</head>
+<body class="royal_loader" data-spy="scroll" data-target="#myScrollSpy" data-offset="100">
+
+	<!-- Begin Cabecera -->
+	<div id="section0" class="jumbotron hero clearfix" data-top-bottom="background-position: 50% -200px;" data-bottom-top="background-position: 50% 100px;" data-anchor-target=".ticker h1">
+
+		<!-- Animación 1 -->
+		<div style="text-align: center;">
+			<div style="min-height: 300px;"></div>
+			<div id="trigger1"></div>
+			<div id="imagesequence">
+				<img style="max-width: 100%;" id="myimg1"/><br>
+			</div>
+			<script>
+				var images1 = [
+					"fotogramas_1/animacion-1-01.svg",
+					"fotogramas_1/animacion-1-01.svg",
+					"fotogramas_1/animacion-1-01.svg",
+					"fotogramas_1/animacion-1-02.svg",
+					"fotogramas_1/animacion-1-03.svg",
+					"fotogramas_1/animacion-1-04.svg",
+					"fotogramas_1/animacion-1-05.svg",
+					"fotogramas_1/animacion-1-06.svg",
+					"fotogramas_1/animacion-1-07.svg",
+					"fotogramas_1/animacion-1-08.svg",
+					"fotogramas_1/animacion-1-09.svg",
+					"fotogramas_1/animacion-1-10.svg",
+					"fotogramas_1/animacion-1-11.svg",
+					"fotogramas_1/animacion-1-12.svg",
+					"fotogramas_1/animacion-1-13.svg",
+					"fotogramas_1/animacion-1-14.svg",
+					"fotogramas_1/animacion-1-15.svg",
+					"fotogramas_1/animacion-1-16.svg",
+					"fotogramas_1/animacion-1-17.svg",
+					"fotogramas_1/animacion-1-18.svg",
+					"fotogramas_1/animacion-1-19.svg",
+					"fotogramas_1/animacion-1-20.svg",
+					"fotogramas_1/animacion-1-21.svg",
+				];
+
+				preloadImages(images1);
+				var obj1 = {curImg: 0};
+
+				var tween1 = TweenMax.to(obj1, 0.5,
+					{
+						curImg: images1.length - 1,	
+						roundProps: "curImg",				
+						repeat: 0,									
+						immediateRender: true,			
+						ease: Linear.easeNone,			
+						onUpdate: function () {
+						  $("#myimg1").attr("src", images1[obj1.curImg]);
+						}
+					}
+				);
+
+				var controller1 = new ScrollMagic.Controller();
+
+				var scene1 = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 800})
+								.setTween(tween1)
+
+								.addTo(controller1);
+			</script>
+		</div>
+		<script type="text/javascript" src="../js/tracking.js"></script>
+		<!-- Fin Animación 1 -->
+	</div>
+	<!-- End Cabecera -->
+
+	<!-- Begin Menú -->
+	<div class="nav-main navbar">
+
+		<div class="container">
+
+			<div class="navbar-header">
+
+				<!-- Brand -->
+				<a href="javascript:void(0);" class="navbar-brand scroll-top">
+					<!-- <span class="ion-ios7-bolt-outline logo-icon"></span> -->
+				</a>
+
+				<!-- Mobile Navigation -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+					<span class="ion-navicon toggle-icon"></span>
+				</button>
+
+			</div>
+
+			<!-- Main Navigation -->
+			<nav class="navbar-collapse collapse navHeaderCollapse" id="myScrollSpy" role="navigation">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#section0" data-id="section0" class="scroll-link">Home</a></li>
+					<li><a href="#section1" data-id="section1" class="scroll-link">La escuela</a></li>
+					<li><a href="#section2" data-id="section2" class="scroll-link">Cursos</a></li>
+					<li><a href="#section3" data-id="section3" class="scroll-link">Precios</a></li>
+					<li><a href="#section4" data-id="section4" class="scroll-link">Condiciones</a></li>
+					<li><a href="#section5" data-id="section5" class="scroll-link">Contacto</a></li>
+				</ul>
+			</nav>
+
+		</div>
+
+	</div>
+	<!-- End Menú -->
+
+	<!-- Begin Escuela -->
+	<section id="section1">
+	
+		<div class="summary">
+
+			<div class="container">
+
+				<!-- Content -->
+				<div class="row">
+					<div class="col-lg-10 col-lg-offset-1" >
+						<h3 data-scroll-reveal="enter left and move 50px over 1.2s">La escuela de verano artediez</h3>
+						<hr data-scroll-reveal>
+						<p data-scroll-reveal>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a elit turpis. Phasellus non varius mi. Nam bibendum mauris at sollicitudin lacinia. Vestibulum blandit nibh neque, id consequat mi vestibulum eu. Suspendisse potenti. Ut ac consequat nulla. Praesent tristique eleifend tincidunt.</p>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+	<!-- End Esuela -->
+
+	<!-- Begin Animación 2 -->
+	<div style="text-align: center; background-color: #45b6f4;">
+		<div style="min-height: 100px;"></div>
+		<div id="trigger2"></div>
+		<div id="imagesequence">
+			<img style="max-width: 100%;" id="myimg2"/><br>
+		</div>
+		<div class="spacer s2" style="min-height: 100px;"></div>
+		<script>
+			// define images
+			var images2 = [
+				"fotogramas_2/animacion_2-22.png",
+				"fotogramas_2/animacion_2-22.png",
+				"fotogramas_2/animacion_2-15.png",
+				"fotogramas_2/animacion_2-14.png",
+				"fotogramas_2/animacion_2-13.png",
+				"fotogramas_2/animacion_2-12.png",
+				"fotogramas_2/animacion_2-07.png",
+				"fotogramas_2/animacion_2-08.png",
+				"fotogramas_2/animacion_2-08.png",
+				"fotogramas_2/animacion_2-09.png",
+				"fotogramas_2/animacion_2-09.png",
+				"fotogramas_2/animacion_2-10.png",
+				"fotogramas_2/animacion_2-10.png",
+				"fotogramas_2/animacion_2-11.png",
+				"fotogramas_2/animacion_2-16.png",
+				"fotogramas_2/animacion_2-17.png",
+				"fotogramas_2/animacion_2-18.png",
+				"fotogramas_2/animacion_2-19.png",
+				"fotogramas_2/animacion_2-20.png",
+				"fotogramas_2/animacion_2-21.png",
+				"fotogramas_2/animacion_2-22.png",
+
+			];
+
+			preloadImages(images2);
+
+			// TweenMax can tween any property of any object. We use this object to cycle through the array
+			var obj2 = {curImg: 0};
+
+			// create tween
+			var tween2 = TweenMax.to(obj2, 0.5,
+				{
+					curImg: images2.length - 1,	// animate propery curImg to number of images
+					roundProps: "curImg",				// only integers so it can be used as an array index
+					repeat: 0,									// repeat 0 times
+					immediateRender: true,			// load first image automatically
+					ease: Linear.easeNone,			// show every image the same ammount of time
+					onUpdate: function () {
+					  $("#myimg2").attr("src", images2[obj2.curImg]); // set the image source
+					}
+				}
+			);
+
+			// init controller
+			var controller2 = new ScrollMagic.Controller();
+
+			// build scene
+			var scene2 = new ScrollMagic.Scene({triggerElement: "#trigger2", duration: 300})
+							.setTween(tween2)
+							//.addIndicators() // add indicators (requires plugin)
+							.addTo(controller2);
+
+			// handle form change
+			// $("form.move input[name=duration]:radio").change(function () {
+			// 	scene.duration($(this).val());
+			// });
+		</script>
+	</div>
+	<script type="text/javascript" src="../js/tracking.js"></script>
+	</section>
+	<!-- End Animación 2 -->
+
+	<!-- Begin Portfolio -->
+	<section id="section2">
+
+		<div class="container portfolio">
+
+			<!-- Page Title -->
+			<div class="row page-title-2">
+				<div class="col-lg-12">
+					<h3>Cursos</h3>
+					<hr>
+					<p>Estos son los cursos que ofertamos este año:</p>
+				</div>
+			</div>
+
+			<!-- Portfolio Filter -->
+			<div data-scroll-reveal="enter left and move 50px over 1s" class="container text-center">
+			  <ul class="nav nav-pills">
+			    <li class="filter" data-filter="all">TODOS</li>
+			    <li class="filter" data-filter="print">ILUSTRACIÓN</li>
+			    <li class="filter" data-filter="web">MODA</li>
+			    <li class="filter" data-filter="branding">AUDIOVISUALES</li>
+			    <li class="filter" data-filter="illustrations">TIPOGRAFÍA</li>
+			  </ul>
+			</div>
+
+			<!-- Portfolio Items -->
+			<div class="container port-holder">
+			  <ul id="myPortfolio" class="no-padding">
+			    <li class="item branding col-lg-4 col-xs-6 no-padding">
+			    	<a data-toggle="modal" href="projects/project-1.html" data-target="#myModal">
+						<img src="img/projects/thumbs/branding1.jpg" alt="..." />
+						<span class="portfolio-hover">
+						  <span>
+						  	<span class="portfolio-title">CURSO</span><br>
+						  	<span class="portfolio-category">Nombre / 10H / 20–22 junio 16:00–21:00</span>
+						  </span>
+						</span>
+					</a>
+			    </li>
+			    <li class="item web col-lg-4 col-xs-6 no-padding">
+			    	<a data-toggle="modal" href="projects/project-2.html" data-target="#myModal">
+						<img src="img/projects/thumbs/web1.jpg" alt="..." />
+						<span class="portfolio-hover">
+						  <span>
+						  	<span class="portfolio-title">CURSO</span><br>
+						  	<span class="portfolio-category">Nombre / 10H / 20–22 junio 16:00–21:00</span>
+						  </span>
+						</span>
+					</a>
+			    </li>
+			    <li class="item print col-lg-4 col-xs-6 no-padding">
+			    	<a data-toggle="modal" href="projects/project-3.html" data-target="#myModal">
+						<img src="img/projects/thumbs/print1.jpg" alt="..." />
+						<span class="portfolio-hover">
+						  <span>
+						  	<span class="portfolio-title">CURSO</span><br>
+						  	<span class="portfolio-category">Nombre / 10H / 20–22 junio 16:00–21:00</span>
+						  </span>
+						</span>
+					</a>
+			    </li>
+			    <li class="item branding illustrations col-lg-4 col-xs-6 no-padding">
+			    	<a data-toggle="modal" href="projects/project-4.html" data-target="#myModal">
+						<img src="img/projects/thumbs/branding2.jpg" alt="..." />
+						<span class="portfolio-hover">
+						  <span>
+						  	<span class="portfolio-title">CURSO</span><br>
+						  	<span class="portfolio-category">Nombre / 10H / 20–22 junio 16:00–21:00</span>
+						  </span>
+						</span>
+					</a>
+			    </li>
+			    <li class="item print col-lg-4 col-xs-6 no-padding">
+			    	<a data-toggle="modal" href="projects/project-5.html" data-target="#myModal">
+						<img src="img/projects/thumbs/print2.jpg" alt="..." />
+						<span class="portfolio-hover">
+						  <span>
+						  	<span class="portfolio-title">CURSO</span><br>
+						  	<span class="portfolio-category">Nombre / 10H / 20–22 junio 16:00–21:00</span>
+						  </span>
+						</span>
+					</a>
+			    </li>
+			    <li class="item branding col-lg-4 col-xs-6 no-padding">
+			    	<a data-toggle="modal" href="projects/project-6.html" data-target="#myModal">
+						<img src="img/projects/thumbs/branding3.jpg" alt="..." />
+						<span class="portfolio-hover">
+						  <span>
+						  	<span class="portfolio-title">CURSO</span><br>
+						  	<span class="portfolio-category">Nombre / 10H / 20–22 junio 16:00–21:00</span>
+						  </span>
+						</span>
+					</a>
+			    </li>
+			    <li class="item web col-lg-4 col-xs-6 no-padding">
+			    	<a data-toggle="modal" href="projects/project-7.html" data-target="#myModal">
+						<img src="img/projects/thumbs/web2.jpg" alt="..." />
+						<span class="portfolio-hover">
+						  <span>
+						  	<span class="portfolio-title">CURSO</span><br>
+						  	<span class="portfolio-category">Nombre / 10H / 20–22 junio 16:00–21:00</span>
+						  </span>
+						</span>
+					</a>
+			    </li>
+			    <li class="item print illustrations col-lg-4 col-xs-6 no-padding">
+			    	<a data-toggle="modal" href="projects/project-8.html" data-target="#myModal">
+						<img src="img/projects/thumbs/print3.jpg" alt="..." />
+						<span class="portfolio-hover">
+						  <span>
+						  	<span class="portfolio-title">CURSO</span><br>
+						  	<span class="portfolio-category">Nombre / 10H / 20–22 junio 16:00–21:00</span>
+						  </span>
+						</span>
+					</a>
+			    </li>
+			    <li class="item web illustrations col-lg-4 col-xs-6 no-padding">
+			    	<a data-toggle="modal" href="projects/project-9.html" data-target="#myModal">
+						<img src="img/projects/thumbs/web3.jpg" alt="..." />
+						<span class="portfolio-hover">
+						  <span>
+						  	<span class="portfolio-title">CURSO</span><br>
+						  	<span class="portfolio-category">Nombre / 10H / 20–22 junio 16:00–21:00</span>
+						  </span>
+						</span>
+					</a>
+			    </li>
+			  </ul>
+			</div>
+
+		</div>
+
+	</section>
+	<!-- End Portfolio -->
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" role="dialog" aria-hidden="true">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	            <div class="modal-body"></div>
+	        </div> <!-- /.modal-content -->
+	    </div> <!-- /.modal-dialog -->
+	</div> <!-- /.modal -->
+
+	<!-- Begin Precios -->
+	<section id="section3">
+
+		<div class="team">
+
+			<div class="container">
+
+				<div class="row">
+
+					<!-- Intro Precios -->
+					<div class="col-lg-10 col-lg-offset-1 page-title">
+						<h3 class="white">Precios</h3>
+						<hr class="white">
+						<p class="white"><b>20% dto.</b>para alumnos, ex-alumnos y profesores de Artediez.</p>
+					</div>
+
+					<div id="content-holder">
+
+						<!-- Cursos de 10H -->
+						<div data-scroll-reveal="enter top and move 50px over 1s" class="col-lg-6 col-md-6 col-xs-12 team-member-holder">
+							<div class="team-info-holder">
+								<h4 class="white">Cursos de 10H</h3>
+								<p class="white">70€<br>55€ para alumnos, ex-alumnos y profesores de Artediez.</p>
+							</div>
+						</div>
+
+						<!-- Cursos de 20H -->
+						<div data-scroll-reveal="enter bottom and move 50px over 1s" class="col-lg-6 col-md-6 col-xs-12 team-member-holder">
+							<div class="team-info-holder">
+								<h4 class="white">Cursos de 20H</h3>
+								<p class="white">110€<br>100€ para alumnos, ex-alumnos y profesores de Artediez.</p>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+	<!-- End Precios -->
+
+	<!-- Begin Condiciones -->
+	<section id="section4">
+	
+		<div class="summary">
+
+			<div class="container">
+
+				<!-- Content -->
+				<div class="row">
+					<div class="col-lg-10 col-lg-offset-1" >
+						<h3 data-scroll-reveal="enter left and move 50px over 1.2s">Condiciones</h3>
+						<hr data-scroll-reveal>
+						<p data-scroll-reveal>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a elit turpis. Phasellus non varius mi. Nam bibendum mauris at sollicitudin lacinia. Vestibulum blandit nibh neque, id consequat mi vestibulum eu. Suspendisse potenti. Ut ac consequat nulla. Praesent tristique eleifend tincidunt.</p>
+						<!-- <a data-scroll-reveal="enter right and move 50px over 1.2s" href="#" data-id="section3" class="btn btn-default bolt-button-dark scroll-link">
+							About us &nbsp;&nbsp;<span class="ion-ios7-arrow-down"></span>
+						</a> -->
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+	<!-- End Condiciones -->
+
+	<!-- Begin Quote -->
+	<div class="quote" data-top-bottom="background-position: 50% -200px;" data-bottom-top="background-position: 50% 100px;" data-anchor-target=".quote-content">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-lg-12">
+					<p data-scroll-reveal="enter top and move 50px over 1s" class="quote-content">
+						¡Anímate! ¡Haz un curso con la Escuela de Verano!
+					</p>
+					<a data-scroll-reveal="enter bottom and move 50px over 1s" href="#section2" data-id="section2" class="btn btn-default bolt-quote-name">Ir a cursos</a>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+	<!-- End Quote -->
+
+	<!-- Begin Contacto -->
+	<section id="section5">
+
+		<div class="contact">
+
+			<div class="container">
+
+				<!-- Page Title -->
+				<div class="col-lg-10 col-lg-offset-1 page-title">
+					<h3>Contacto</h3>
+					<hr>
+					<p>Envíanos un email a ...</p>
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+	<!-- End Contacto -->
+
+	<!-- Begin Animación 3 -->
+	<div style="text-align: center; background-color: #45b6f4;">
+		<div style="min-height: 100px;"></div>
+		<div id="trigger3"></div>
+		<div id="imagesequence">
+			<img style="max-width: 100%;" id="myimg3"/><br>
+		</div>
+		<div class="spacer s2" style="min-height: 100px;"></div>
+		<script>
+			// define images
+			var images3 = [
+				"fotogramas_3/animacion-3-12.svg",
+				"fotogramas_3/animacion-3-01.svg",
+				"fotogramas_3/animacion-3-02.svg",
+				"fotogramas_3/animacion-3-03.svg",
+				"fotogramas_3/animacion-3-04.svg",
+				"fotogramas_3/animacion-3-05.svg",
+				"fotogramas_3/animacion-3-06.svg",
+				"fotogramas_3/animacion-3-07.svg",
+				"fotogramas_3/animacion-3-08.svg",
+				"fotogramas_3/animacion-3-09.svg",
+				"fotogramas_3/animacion-3-10.svg",
+				"fotogramas_3/animacion-3-11.svg",
+				"fotogramas_3/animacion-3-12.svg",
+			];
+
+			preloadImages(images3);
+			// TweenMax can tween any property of any object. We use this object to cycle through the array
+			var obj3 = {curImg: 0};
+
+			// create tween
+			var tween3 = TweenMax.to(obj3, 0.5,
+				{
+					curImg: images3.length - 1,	// animate propery curImg to number of images
+					roundProps: "curImg",				// only integers so it can be used as an array index
+					repeat: 0,									// repeat 0 times
+					immediateRender: true,			// load first image automatically
+					ease: Linear.easeNone,			// show every image the same ammount of time
+					onUpdate: function () {
+					  $("#myimg3").attr("src", images3[obj3.curImg]); // set the image source
+					}
+				}
+			);
+
+			// init controller
+			var controller3 = new ScrollMagic.Controller();
+
+			// build scene
+			var scene3 = new ScrollMagic.Scene({triggerElement: "#trigger3", duration: 450})
+							.setTween(tween3)
+							//.addIndicators() // add indicators (requires plugin)
+							.addTo(controller3);
+
+			// handle form change
+			// $("form.move input[name=duration]:radio").change(function () {
+			// 	scene.duration($(this).val());
+			// });
+		</script>
+		<div class="spacer s_viewport" style="background-image: none;"></div>
+	</div>
+	<script type="text/javascript" src="../js/tracking.js"></script>
+	</section>
+	<!-- End Animación 3 -->
+
+	<!-- Begin Footer -->
+	<footer id="footer" class="colourbg">
+
+		<!-- Organizaión -->
+		<div class="container">
+
+			<div class="">
+
+				<div class="container">
+
+					<div class="row">
+
+						<div id="content-holder">
+
+							<!-- Colabora -->
+							<div data-scroll-reveal="enter top and move 50px over 1s" class="col-lg-4 col-md-4 col-xs-12 team-member-holder">
+								<div class="organization-info-holder">
+									<h3 class="team-name">COLABORA</h3>
+									<p class="team-info-holder">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
+								</div>
+							</div>
+
+							<!-- Organiza -->
+							<div data-scroll-reveal="enter bottom and move 50px over 1s" class="col-lg-4 col-md-4 col-xs-12 team-member-holder">
+								<div class="organization-info-holder">
+									<h3 class="team-name">ORGANIZA</h3>
+									<p class="team-info-holder">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
+								</div>
+							</div>
+
+							<!-- Sedes -->
+							<div data-scroll-reveal="enter bottom and move 50px over 1s" class="col-lg-4 col-md-4 col-xs-12 team-member-holder">
+								<div class="organization-info-holder">
+									<h3 class="team-name">SEDES</h3>
+									<p class="team-info-holder">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+			<!-- End Organizaión -->
+
+			<!-- Social Media -->
+			<div style="padding:15px 0px 50px 0px; text-align: center;">
+				<div class="social-icon-holder">
+	                <a href="#"><span class="ion-social-twitter social-icon"></span></a>
+	            </div>
+	            <div class="social-icon-holder">
+	                <a href="#"><span class="ion-social-facebook social-icon"></span></a>
+	            </div>
+			</div>
+
+			<!-- Créditos -->
+			<div class="col-lg-12 made-with-love">
+				<p class="no-margin">Edición 2016 - Diseño: Lidia Arranz</p>
+			</div>
+
+		</div>
+
+	</footer>
+	<!-- End Footer --> 
+
+	<!-- Javascript Files -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+	<script type="text/javascript" src="js/portfolio.js"></script>
+	<script type="text/javascript" src="js/navbar.js"></script>
+	<script type="text/javascript" src="js/ticker.js"></script>
+	<script type="text/javascript" src="js/modal-fix.js"></script>
+	<script type="text/javascript" src="js/skrollr.min.js"></script>
+	<script type="text/javascript" src="js/start-skrollr.js"></script>	
+	<script type="text/javascript" src="js/scrollReveal.js"></script>
+	<script type="text/javascript">
+		window.scrollReveal = new scrollReveal();
+		//activate scrollReveal.js
+	</script>
+</body>
+</html>

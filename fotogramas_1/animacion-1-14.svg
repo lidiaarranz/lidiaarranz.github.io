@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="480px" height="960px" viewBox="0 0 480 960" enable-background="new 0 0 480 960" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<rect x="84" y="577" fill="#F0976B" width="8" height="192"/>
+			<rect x="100" y="577" fill="#F0976B" width="8" height="192"/>
+		</g>
+		<rect x="64" y="855" fill="#F0976B" width="64" height="54"/>
+		<path fill="#FEC629" d="M96,751.542c-17.673,0-32,14.327-32,32v111c0-17.673,14.327-32,32-32s32,14.327,32,32v-111
+			C128,765.869,113.673,751.542,96,751.542z"/>
+		<path d="M96,960.542c17.673,0,32-14.326,32-32V897H64v31.542C64,946.216,78.327,960.542,96,960.542z"/>
+		<polygon fill="#F0976B" points="130,897 130,1044 126,1044 126,1046 130,1046 130,1053 138,1053 138,897 		"/>
+		<polygon fill="#F0976B" points="62,1044 62,897 54,897 54,1053 62,1053 62,1046 66,1046 66,1044 		"/>
+	</g>
+	<g>
+		<g>
+			<rect x="228" y="769" fill="#F0976B" width="8" height="192"/>
+			<rect x="244" y="769" fill="#F0976B" width="8" height="192"/>
+		</g>
+		<path fill="#A4CB57" d="M240,943.542c-17.673,0-32,14.327-32,32v111c0-17.673,14.327-32,32-32s32,14.327,32,32v-111
+			C272,957.869,257.673,943.542,240,943.542z"/>
+	</g>
+</g>
+</svg>

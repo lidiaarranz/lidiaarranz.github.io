@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="480px" height="960px" viewBox="0 0 480 960" enable-background="new 0 0 480 960" xml:space="preserve">
+<pattern  x="3329" y="5632" width="114" height="20" patternUnits="userSpaceOnUse" id="Nueva_muestra_de_motivo_4" viewBox="0 -20 114 20" overflow="visible">
+	<g>
+		<polygon fill="none" points="0,0 114,0 114,-20 0,-20 		"/>
+		<polygon fill="#FFFFFF" points="114,0 0,0 0,-10 114,-10 		"/>
+		<polygon fill="#2FA1BE" points="114,-10 0,-10 0,-20 114,-20 		"/>
+	</g>
+</pattern>
+<g>
+	<g>
+		<g>
+			<rect x="228" y="264" fill="#F0976B" width="8" height="152"/>
+			<rect x="244" y="264" fill="#F0976B" width="8" height="152"/>
+		</g>
+		<path fill="#FEC629" d="M240,288.423c17.672,0,32-14.326,32-32V224h-64v32.423C208,274.097,222.326,288.423,240,288.423z"/>
+		<polygon fill="#F0976B" points="274,224 274,371 270,371 270,373 274,373 274,380 282,380 282,224 		"/>
+		<polygon fill="#F0976B" points="206,371 206,224 198,224 198,380 206,380 206,373 210,373 210,371 		"/>
+	</g>
+	<g>
+		<path fill="#F0976B" d="M96,32.423c-17.673,0-32,14.327-32,32v144c0,17.673,14.327,32,32,32s32-14.327,32-32v-144
+			C128,46.75,113.673,32.423,96,32.423z"/>
+		<g>
+			<rect x="84" y="224" fill="#F0976B" width="8" height="192"/>
+			<rect x="100" y="224" fill="#F0976B" width="8" height="192"/>
+		</g>
+		<polygon fill="#F0976B" points="130,96 130,243 126,243 126,245 130,245 130,252 138,252 138,96 		"/>
+		<polygon fill="#F0976B" points="62,243 62,96 54,96 54,252 62,252 62,245 66,245 66,243 		"/>
+		<polygon fill="#EC4346" points="96.075,94 92.012,94 94.044,84.454 96.075,74.799 98.105,84.398 100.136,94 		"/>
+		<path d="M108.075,51.015"/>
+		<path fill="#FEC629" d="M96,127.423c-17.673,0-32-14.327-32-32v113c0,17.673,14.327,32,32,32s32-14.327,32-32v-113
+			C128,113.096,113.673,127.423,96,127.423z"/>
+		<path d="M95.982,32c-17.673,0-32,15-32,32h40.029l2.029-5.757l2.027-5.865l2.027,5.81L112.122,64h15.86
+			C127.982,47,113.655,32,95.982,32z"/>
+		<circle cx="95.982" cy="24.423" r="8"/>
+	</g>
+	<g>
+		<g>
+			<rect x="372" y="448" fill="#F0976B" width="8" height="192"/>
+			<rect x="388" y="448" fill="#F0976B" width="8" height="192"/>
+		</g>
+		<rect x="352" y="726" fill="#F0976B" width="64" height="54"/>
+		
+			<pattern  id="SVGID_1_" xlink:href="#Nueva_muestra_de_motivo_4" patternTransform="matrix(1.5791 0 0 1.5791 3327.7236 6966.0176)">
+		</pattern>
+		<path fill="url(#SVGID_1_)" d="M384,623.423c-17.673,0-32,14.327-32,32v111c0-17.673,14.327-32,32-32s32,14.327,32,32v-111
+			C416,637.75,401.673,623.423,384,623.423z"/>
+		<path d="M384,832.423c17.673,0,32-14.326,32-32V768h-64v32.423C352,818.097,366.327,832.423,384,832.423z"/>
+		<polygon fill="#F0976B" points="418,768 418,915 414,915 414,917 418,917 418,924 426,924 426,768 		"/>
+		<polygon fill="#F0976B" points="350,915 350,768 342,768 342,924 350,924 350,917 354,917 354,915 		"/>
+		<g>
+			<path fill="#EC4346" d="M416,655.42c0-17.673-14.326-32-32-32c-17.672,0-32,14.327-32,32V663h64V655.42z"/>
+		</g>
+	</g>
+</g>
+</svg>
