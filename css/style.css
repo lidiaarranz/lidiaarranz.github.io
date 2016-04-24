@@ -236,15 +236,14 @@ h6 {
 	background-color: #45b6f4;
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
-	font-size: 14px;
-	letter-spacing: 2px;
+	font-size: 10px;
+	letter-spacing: 1px;
 	font-weight: 700;
 	margin: 0; 
 	z-index: 1;
 }
 
 .navbar-header {
-	height: 100px;
 	padding: 0px 15px 0px 15px;
 }
 
@@ -349,6 +348,23 @@ ul.nav a:hover {
 }
 
 .navspacer { height:100px; }
+
+.navbar-brand{
+	float: left;
+    height: 50px;
+    padding: 40px 15px;
+    line-height: 20px;
+    border-radius: 0;
+	border: 0;
+	background-color: #45b6f4;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: none;
+	font-size: 10px;
+	letter-spacing: 1px;
+	margin: 0; 
+	z-index: 1;
+	font-weight: 100;
+}
 
 /* =Hero Unit
 -------------------------------------------------------------- */
@@ -972,20 +988,22 @@ span.portfolio-hover span {
 	padding: 25px 25px 0 25px;
 }
 
-.social-icon { 
+.social-icon {
 	font-size: 11px; 
-	color: #dadada; 
+	color: #fff; 
 	display: block !important; 
 	text-align: center !important; 
 	line-height: 26px !important; 
 }
 
 .social-icon-holder {
+	color: #fff;
 	border: 2px solid #dadada;
 	border-radius: 50%;
 	width: 30px;
 	height: 30px;
 	display:inline-block;
+	margin: 3px;
 }
 
 .social-icon-holder:hover {
@@ -998,6 +1016,12 @@ span.portfolio-hover span {
 	-moz-transition: color 0.5s ease;
 	-o-transition: color 0.5s ease;
 	transition: color 0.5s ease;
+}
+
+.caja{
+	border: 1px solid #fff;
+	margin: 10px;
+	padding-top: 10px;
 }
 
 /* =Services
@@ -1255,7 +1279,6 @@ textarea.form-control {
     .summary { padding:60px 0 60px 0; }
     .portfolio { padding:70px 0 0 0; }
     span.portfolio-hover {
-	    background: #ec4346;
 		color: #8e8e8e;
 		width: 100%;
 		height: 100%;
@@ -1292,10 +1315,10 @@ textarea.form-control {
 	body { font-size:16px; line-height:27px; }
 	.logo-icon-holder { width:30px; height:30px; }
 	.hero { background-size:cover; background-position:top center!important; }
-	.navbar { height:60px; }
-	.nav-main .navbar-header { height:60px }
+	.navbar { height: 60px; }
+	.nav-main .navbar-header { height: 60px; }
     .navbar-toggle { background-color: transparent; border:0; padding:13px 0 0 0; border-radius:0; margin-top:0; }
-    .navbar-brand { margin-top: 1px;padding: 14px 15px; }
+    .navbar-brand { margin-top: 1px; padding: 19px 15px 0px 15px; }
     .navspacer { height:60px; }
     	.navbar-nav li a { line-height:60px; }
 	.navbar ul.nav a { color: #fff; height: 35px; }
@@ -1303,6 +1326,22 @@ textarea.form-control {
     .toggle-icon { font-size:22px; line-height:1.6 !important; }
 	.navbar .nav li.active:after { display:none; }
 	.portfolio { padding-bottom:15px; }
+	span.portfolio-hover {
+		color: #8e8e8e;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		font: 0/0 a;
+		left: 0;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		opacity: 1;
+		-webkit-transition: opacity 500ms;
+		-moz-transition: opacity 500ms;
+		-o-transition: opacity 500ms;
+		transition: opacity 500ms; 
+	}
 	.cta p { margin: 15px 0 15px 0; }
 	.team img { max-width:350px; max-height:350px; }
 	.team-info-holder { max-width:350px; }
