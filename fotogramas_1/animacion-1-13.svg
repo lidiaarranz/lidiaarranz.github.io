@@ -3,7 +3,48 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="480px"
 	 height="960px" viewBox="0 0 480 960" enable-background="new 0 0 480 960" xml:space="preserve">
-<g id="gotas">
+<g id="gotas" display="none">
+	<g id="_x31_" display="inline">
+	</g>
+	<g id="_x32_" display="inline">
+	</g>
+	<g id="_x33_" display="inline">
+	</g>
+	<g id="_x34_" display="inline">
+	</g>
+	<g id="_x35_" display="inline">
+		<rect x="292" y="945" fill="#FFFFFF" width="6" height="6"/>
+		<rect x="434" y="957" fill="#FFFFFF" width="6" height="6"/>
+		<rect x="468" y="951" fill="#FFFFFF" width="6" height="6"/>
+		<rect x="326" y="954" fill="#FFFFFF" width="6" height="6"/>
+	</g>
+</g>
+<g id="gotas_copia" display="none">
+	<g id="_x31__copia" display="inline">
+	</g>
+	<g id="_x32__copia" display="inline">
+		<rect x="300" y="948" fill="#FFFFFF" width="6" height="6"/>
+		<rect x="310" y="938" fill="#FFFFFF" width="6" height="6"/>
+		<rect x="176" y="944" fill="#FFFFFF" width="6" height="6"/>
+	</g>
+	<g id="_x33__copia" display="inline">
+	</g>
+	<g id="_x34__copia" display="inline">
+	</g>
+	<g id="_x35__copia" display="inline">
+	</g>
+</g>
+<g id="gotas_copia_2">
+	<g id="_x31__copia_2">
+	</g>
+	<g id="_x32__copia_2">
+	</g>
+	<g id="_x33__copia_2">
+	</g>
+	<g id="_x34__copia_2">
+	</g>
+	<g id="_x35__copia_2">
+	</g>
 </g>
 <g id="guías" display="none">
 </g>

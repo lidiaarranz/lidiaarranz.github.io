@@ -220,7 +220,7 @@
 	<!-- End Esuela -->
 
 	<!-- Begin Animación 2 -->
-	<div style="text-align: center; background-color: #45b6f4;">
+	<div id="animacion2" style="text-align: center; background-color: #45b6f4;">
 		<div style="min-height: 100px;"></div>
 		<div id="trigger2"></div>
 		<div id="imagesequence">
@@ -320,6 +320,76 @@
 	<script type="text/javascript" src="../js/tracking.js"></script>
 	</section>
 	<!-- End Animación 2 -->
+
+	<!-- Begin Animación 2 Mobile (4)-->
+	<div id="animacion4" style="text-align: center; background-color: #45b6f4;">
+		<div style="min-height: 10px;"></div>
+		<div id="trigger4"></div>
+		<div id="imagesequence">
+			<img style="max-width: 100%;" id="myimg4"/><br>
+		</div>
+		<div class="spacer s2" style="min-height: 100px;"></div>
+		<script>
+			// define images
+			var images4 = [
+				"fotogramas_2_mobile/animacion-2-mobile-01.svg",
+				"fotogramas_2_mobile/animacion-2-mobile-02.svg",
+				"fotogramas_2_mobile/animacion-2-mobile-03.svg",
+				"fotogramas_2_mobile/animacion-2-mobile-04.svg",
+				"fotogramas_2_mobile/animacion-2-mobile-05.svg",
+				"fotogramas_2_mobile/animacion-2-mobile-06.svg",
+				"fotogramas_2_mobile/animacion-2-mobile-07.svg",
+				"fotogramas_2_mobile/animacion-2-mobile-08.svg",
+				"fotogramas_2_mobile/animacion-2-mobile-09.svg",
+				"fotogramas_2_mobile/animacion-2-mobile-10.svg",
+				"fotogramas_2_mobile/animacion-2-mobile-11.svg",
+				"fotogramas_2_mobile/animacion-2-mobile-12.svg",
+				"fotogramas_2_mobile/animacion-2-mobile-13.svg",
+				"fotogramas_2_mobile/animacion-2-mobile-14.svg",
+				"fotogramas_2_mobile/animacion-2-mobile-15.svg",
+				"fotogramas_2_mobile/animacion-2-mobile-16.svg",
+				"fotogramas_2_mobile/animacion-2-mobile-17.svg",
+				"fotogramas_2_mobile/animacion-2-mobile-18.svg",
+				"fotogramas_2_mobile/animacion-2-mobile-01.svg",
+			];
+
+			preloadImages(images4);
+
+			// TweenMax can tween any property of any object. We use this object to cycle through the array
+			var obj4 = {curImg: 0};
+
+			// create tween
+			var tween4 = TweenMax.to(obj4, 0.5,
+				{
+					curImg: images4.length - 1,	// animate propery curImg to number of images
+					roundProps: "curImg",				// only integers so it can be used as an array index
+					repeat: 0,									// repeat 0 times
+					immediateRender: true,			// load first image automatically
+					ease: Linear.easeNone,			// show every image the same ammount of time
+					onUpdate: function () {
+					  $("#myimg4").attr("src", images4[obj4.curImg]); // set the image source
+					}
+				}
+			);
+
+			// init controller
+			var controller4 = new ScrollMagic.Controller();
+
+			// build scene
+			var scene4 = new ScrollMagic.Scene({triggerElement: "#trigger4", duration: 600})
+							.setTween(tween4)
+							//.addIndicators() // add indicators (requires plugin)
+							.addTo(controller4);
+
+			// handle form change
+			// $("form.move input[name=duration]:radio").change(function () {
+			// 	scene.duration($(this).val());
+			// });
+		</script>
+	</div>
+	<script type="text/javascript" src="../js/tracking.js"></script>
+	</section>
+	<!-- End Animación 2 Mobile-->
 
 	<!-- Begin Portfolio -->
 	<section id="section2">

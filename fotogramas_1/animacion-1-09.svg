@@ -10,7 +10,43 @@
 		<polygon fill="#2FA1BE" points="114,-10 0,-10 0,-20 114,-20 		"/>
 	</g>
 </pattern>
-<g id="gotas">
+<g id="gotas" display="none">
+	<g id="_x31_" display="inline">
+		<rect x="434" y="954" fill="#FFFFFF" width="6" height="6"/>
+		<rect x="322" y="957" fill="#FFFFFF" width="6" height="6"/>
+	</g>
+	<g id="_x32_" display="inline">
+	</g>
+	<g id="_x33_" display="inline">
+	</g>
+	<g id="_x34_" display="inline">
+	</g>
+	<g id="_x35_" display="inline">
+	</g>
+</g>
+<g id="gotas_copia" display="none">
+	<g id="_x31__copia" display="inline">
+	</g>
+	<g id="_x32__copia" display="inline">
+	</g>
+	<g id="_x33__copia" display="inline">
+	</g>
+	<g id="_x34__copia" display="inline">
+	</g>
+	<g id="_x35__copia" display="inline">
+	</g>
+</g>
+<g id="gotas_copia_2">
+	<g id="_x31__copia_2">
+	</g>
+	<g id="_x32__copia_2">
+	</g>
+	<g id="_x33__copia_2">
+	</g>
+	<g id="_x34__copia_2">
+	</g>
+	<g id="_x35__copia_2">
+	</g>
 </g>
 <g id="guías" display="none">
 </g>
