@@ -232,6 +232,24 @@ h6 {
 	transition: color 0.5s ease;
 }
 
+.input-group .form-control:first-child{
+	border-radius: 0;
+    font-size: 12px;
+}
+
+.input-group-btn:last-child>.btn{
+    border-radius: 0;
+    background: #dadada;
+    border-color: transparent;
+    font-size: 12px;
+    padding: 0px 40px 0px 40px;
+}
+
+.btn-primary:hover {
+    color: #333;
+    background-color: #fff;
+}
+
 /* =Navigation
 -------------------------------------------------------------- */
 .navbar {
