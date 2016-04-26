@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="480px"
-	 height="960px" viewBox="0 0 480 960" enable-background="new 0 0 480 960" xml:space="preserve">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="480px" height="960px" viewBox="0 0 480 960" enable-background="new 0 0 480 960" xml:space="preserve">
 <g id="gotas" display="none">
 	<g id="_x31_" display="inline">
 	</g>
@@ -47,7 +47,7 @@
 </g>
 <g id="guías" display="none">
 </g>
-<g id="Capa_1">
+<g id="Capa_1_1_">
 	<g>
 		<g>
 			<g>
@@ -67,9 +67,10 @@
 </g>
 <g id="txt">
 	<rect x="-1" y="605" fill="none" width="480.266" height="121.739"/>
-	<text transform="matrix(1 0 0 1 82.1523 639.0796)" opacity="0.2"><tspan x="0" y="0" fill="#FFFFFF" font-family="'MyriadPro-Bold'" font-size="48">III ESCUELA DE </tspan><tspan x="-45.84" y="57.6" fill="#FFFFFF" font-family="'MyriadPro-Bold'" font-size="48">VERANO ARTEDIEZ</tspan></text>
+	<text transform="matrix(1 0 0 1 82.1523 639.0801)" fill="#FFFFFF" font-family="'MyriadPro-Bold'" font-size="48">III ESCUELA DE </text>
+	<text transform="matrix(1 0 0 1 36.3125 696.6797)" fill="#FFFFFF" font-family="'MyriadPro-Bold'" font-size="48">VERANO ARTEDIEZ</text>
 	<rect x="-1" y="731.739" fill="none" width="478" height="77"/>
 	
-		<text transform="matrix(1 0 0 1 95.5752 748.7793)" opacity="0.2" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="24">del 20 al 26 de junio de 2016</text>
+		<text transform="matrix(1 0 0 1 95.5752 748.7793)" opacity="0.2" fill="#FFFFFF" enable-background="new    " font-family="'MyriadPro-Regular'" font-size="24">del 27 al 30 de junio de 2016</text>
 </g>
 </svg>
