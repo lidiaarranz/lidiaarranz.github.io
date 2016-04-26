@@ -48,10 +48,10 @@
 <g id="Capa_1_1_">
 </g>
 <g id="txt">
-	<rect x="-1" y="605" fill="#FFFFFF" width="480.266" height="121.739"/>
+	<rect x="-1" y="605" fill="none" width="480.266" height="121.739"/>
 	<text transform="matrix(1 0 0 1 82.1523 639.0801)" fill="#FFFFFF" font-family="'MyriadPro-Bold'" font-size="48">III ESCUELA DE </text>
 	<text transform="matrix(1 0 0 1 36.3125 696.6797)" fill="#FFFFFF" font-family="'MyriadPro-Bold'" font-size="48">VERANO ARTEDIEZ</text>
-	<rect x="-1" y="731.739" fill="#FFFFFF" width="478" height="77"/>
+	<rect x="-1" y="731.739" fill="none" width="478" height="77"/>
 	<text transform="matrix(1 0 0 1 95.5752 748.7793)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="24">del 27 al 30 de junio de 2016</text>
 </g>
 </svg>
