@@ -1411,7 +1411,7 @@ textarea.form-control {
 }
 
 /* Large desktops and laptops */
-@media (min-width:1200px) {
+@media (min-width:1500px) {
 	.cta p { margin:6px 0 6px 0; } 
 	.contact-info { padding-bottom: 70px; }
 	#trigger-animacion1{
