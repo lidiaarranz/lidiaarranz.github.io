@@ -1,35 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="480px" height="960px" viewBox="0 0 480 960" enable-background="new 0 0 480 960" xml:space="preserve">
-<g>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="480px"
+	 height="960px" viewBox="0 0 480 960" enable-background="new 0 0 480 960" xml:space="preserve">
+<g id="gotas_copia_2">
+	<g id="_x31__copia_2">
+	</g>
+	<g id="_x32__copia_2">
+	</g>
+	<g id="_x33__copia_2">
+	</g>
+	<g id="_x34__copia_2">
+	</g>
+	<g id="_x35__copia_2">
+	</g>
+</g>
+<g id="guías" display="none">
+</g>
+<g id="Capa_1">
 	<g>
 		<g>
-			<rect x="84" y="448" fill="#F0976B" width="8" height="192"/>
-			<rect x="100" y="448" fill="#F0976B" width="8" height="192"/>
+			<g>
+				<rect x="84" y="448" fill="#F0976B" width="8" height="192"/>
+				<rect x="100" y="448" fill="#F0976B" width="8" height="192"/>
+			</g>
+			<rect x="64" y="726" fill="#F0976B" width="64" height="54"/>
+			<path fill="#FEC629" d="M96,623.002c-17.673,0-32,14.327-32,32v111c0-17.673,14.327-32,32-32s32,14.327,32,32v-111
+				C128,637.329,113.673,623.002,96,623.002z"/>
+			<path d="M96,832.002c17.673,0,32-14.325,32-32V768H64v32.002C64,817.677,78.327,832.002,96,832.002z"/>
+			<polygon fill="#F0976B" points="130,768 130,915 126,915 126,917 130,917 130,924 138,924 138,768 			"/>
+			<polygon fill="#F0976B" points="62,915 62,768 54,768 54,924 62,924 62,917 66,917 66,915 			"/>
 		</g>
-		<rect x="64" y="726" fill="#F0976B" width="64" height="54"/>
-		<path fill="#FEC629" d="M96,623.002c-17.673,0-32,14.327-32,32v111c0-17.673,14.327-32,32-32s32,14.327,32,32v-111
-			C128,637.329,113.673,623.002,96,623.002z"/>
-		<path d="M96,832.002c17.673,0,32-14.325,32-32V768H64v32.002C64,817.677,78.327,832.002,96,832.002z"/>
-		<polygon fill="#F0976B" points="130,768 130,915 126,915 126,917 130,917 130,924 138,924 138,768 		"/>
-		<polygon fill="#F0976B" points="62,915 62,768 54,768 54,924 62,924 62,917 66,917 66,915 		"/>
-	</g>
-	<g>
 		<g>
-			<rect x="228" y="641" fill="#F0976B" width="8" height="192"/>
-			<rect x="244" y="641" fill="#F0976B" width="8" height="192"/>
+			<g>
+				<rect x="228" y="641" fill="#F0976B" width="8" height="192"/>
+				<rect x="244" y="641" fill="#F0976B" width="8" height="192"/>
+			</g>
+			<rect x="208" y="919" fill="#F0976B" width="64" height="54"/>
+			<path fill="#A4CB57" d="M240,816.002c-17.673,0-32,14.327-32,32v111c0-17.673,14.327-32,32-32s32,14.327,32,32v-111
+				C272,830.329,257.673,816.002,240,816.002z"/>
 		</g>
-		<rect x="208" y="919" fill="#F0976B" width="64" height="54"/>
-		<path fill="#A4CB57" d="M240,816.002c-17.673,0-32,14.327-32,32v111c0-17.673,14.327-32,32-32s32,14.327,32,32v-111
-			C272,830.329,257.673,816.002,240,816.002z"/>
-	</g>
-	<g>
 		<g>
-			<rect x="372" y="833" fill="#F0976B" width="8" height="192"/>
-			<rect x="388" y="833" fill="#F0976B" width="8" height="192"/>
+			<g>
+				<rect x="372" y="833" fill="#F0976B" width="8" height="192"/>
+				<rect x="388" y="833" fill="#F0976B" width="8" height="192"/>
+			</g>
 		</g>
 	</g>
+</g>
+<g id="txt">
 </g>
 </svg>

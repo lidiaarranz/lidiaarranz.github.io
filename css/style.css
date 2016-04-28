@@ -103,6 +103,10 @@ a.logo {
 	display: none;
 }
 
+#trigger-animacion1{
+	min-height: 300px;
+}
+
 /* =Typography
 -------------------------------------------------------------- */
 h1,h2,h3,h4,h5,h6 {
@@ -1387,6 +1391,9 @@ textarea.form-control {
 	#animacion4{
 		display: block;
 	}
+	#trigger-animacion1{
+	min-height: 250px;
+}
 }
 
 /* Portrait tablets and small desktops */
@@ -1407,4 +1414,7 @@ textarea.form-control {
 @media (min-width:1200px) {
 	.cta p { margin:6px 0 6px 0; } 
 	.contact-info { padding-bottom: 70px; }
+	#trigger-animacion1{
+	min-height: 450px;
+	}
 }
