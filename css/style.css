@@ -114,7 +114,7 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	line-height: 1.17em;
-	margin: 0 0 20px;
+	margin: 20px 0 15px;
 }
 
 h1 {
@@ -150,20 +150,19 @@ h6 {
 /* =Buttons
 -------------------------------------------------------------- */
 .bolt-button-send {
-	border-radius: 0;
-	border: 2px solid #272727;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	margin-top: 10px;
-	background-color: transparent;
+	font-size: 14px;
+	font-weight: 100;
+	text-transform: none;
+	letter-spacing: 0px;
+	background-color: #45b6f4;
+	padding: 20px 40px;
 }
 
 .bolt-button-send:hover, .bolt-button-send:focus {
-	background-color: #272727;
-	border-color: #272727;
-	color: #fff;
+	background-color: transparent;
+	border: 2px solid #45b6f4;
+	color: #45b6f4;
 	-webkit-transition: color 0.5s ease;
 	-moz-transition: color 0.5s ease;
 	-o-transition: color 0.5s ease;
@@ -243,7 +242,7 @@ h6 {
 
 .input-group-btn:last-child>.btn{
     border-radius: 0;
-    background: #dadada;
+    background: #45b6f4;
     border-color: transparent;
     font-size: 12px;
     padding: 0px 40px 0px 40px;
@@ -1281,7 +1280,7 @@ span.portfolio-hover span {
 	-webkit-box-shadow: none;
 	-webkit-appearance: none;
 	border-radius: 0;
-	border: solid 2px #dadada !important;
+	border: solid 2px #45b6f4 !important;
 	font-size: 12px;
 	color: #a9a9a9;
 	line-height: 2;
@@ -1294,11 +1293,11 @@ textarea.form-control {
 }
 
 .form-control:focus, .form-control:focus + span .btn{
-	border-color:#dadada;
+	border-color:#45b6f4;
     box-shadow:none;
     -webkit-box-shadow: none;
     -webkit-appearance: none;
-    color: #272727;
+    color: #fff;
 }
 
 .form-control-message {
@@ -1339,7 +1338,7 @@ textarea.form-control {
 }
 
 a.black{
-	color: #ccc;
+	color: #45b6f4;
 }
 
 /* =Media Queries
