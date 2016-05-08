@@ -893,7 +893,6 @@ span.portfolio-hover span {
 
 .subtitle {
 	text-align: center;
-	padding-bottom: 30px;
 	color: #272727;
 }
 
@@ -1282,7 +1281,6 @@ span.portfolio-hover span {
 	border-radius: 0;
 	border: solid 2px #45b6f4 !important;
 	font-size: 12px;
-	color: #a9a9a9;
 	line-height: 2;
 	height: 45px;
 }
@@ -1297,7 +1295,6 @@ textarea.form-control {
     box-shadow:none;
     -webkit-box-shadow: none;
     -webkit-appearance: none;
-    color: #fff;
 }
 
 .form-control-message {
@@ -1339,6 +1336,12 @@ textarea.form-control {
 
 a.black{
 	color: #45b6f4;
+	text-decoration: underline;
+}
+
+a:hover.black{
+	color: #333;
+	text-decoration: underline;
 }
 
 /* =Media Queries
