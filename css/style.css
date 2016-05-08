@@ -31,7 +31,7 @@ body {
 	background-color:#fff;
 	font: normal 18px "Open Sans", arial, sans-serif;
 	font-weight: 300;
-	color: #ccc;
+	color: #333;
 	height: 100% !important;
 	line-height: 30px;
 }
@@ -104,7 +104,7 @@ a.logo {
 }
 
 #trigger-animacion1{
-	min-height: 300px;
+	min-height: 320px;
 }
 
 /* =Typography
@@ -267,7 +267,7 @@ h6 {
 	letter-spacing: 1px;
 	font-weight: 700;
 	margin: 0; 
-	z-index: 1;
+	z-index: ;
 }
 
 .navbar-header {
@@ -696,7 +696,7 @@ ul.nav a:hover {
 .page-title {
 	padding-bottom: 70px;
 	text-align: center;
-	font-weight: 400;
+	font-weight: 100;
 }
 
 hr {
@@ -1003,6 +1003,42 @@ span.portfolio-hover span {
 	color: #dadada;
 }
 
+.escuela-info-holder {
+	text-align: center;
+	padding: 0px 30px 0px 30px;
+	font: normal 14px "Open Sans", arial, sans-serif;
+	color: #fff;
+	font-weight: 100;
+}
+
+.escuela-name {
+	font: normal 18px "Montserrat", arial, sans-serif;
+	font-weight: 400;
+	color: #fff;
+	text-transform: none;
+	padding-top: 20px;
+	line-height: 0.5;
+	margin: 0;
+}
+
+.org-info-holder {
+	text-align: center;
+	padding: 0px 30px 0px 30px;
+	font: normal 14px "Open Sans", arial, sans-serif;
+	color: #fff;
+	font-weight: 100;
+}
+
+.org-name {
+	font: normal 18px "Montserrat", arial, sans-serif;
+	font-weight: 400;
+	color: #fff;
+	text-transform: none;
+	padding-top: 20px;
+	line-height: 0.5;
+	margin: 0;
+}
+
 .organization-info-holder {
 	text-align: center;
 	padding: 0px 0px 50px 0px;
@@ -1048,7 +1084,7 @@ span.portfolio-hover span {
 .caja{
 	border: 1px solid #fff;
 	margin: 10px;
-	padding-top: 10px;
+	padding: 20px;
 }
 
 /* =Services
@@ -1296,6 +1332,14 @@ textarea.form-control {
 
 .heart-icon {
 	color: #f84e4e;
+}
+
+.condiciones-text{
+	text-align: left;
+}
+
+a.black{
+	color: #ccc;
 }
 
 /* =Media Queries
