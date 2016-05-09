@@ -907,6 +907,12 @@ span.portfolio-hover span {
 	text-align: center;
 }
 
+.footer-piscina{
+	background-image: url("../base.svg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
 /* =About
 -------------------------------------------------------------- */
 .about { padding:120px 0 120px 0; background-color:#f1f1f1; }
