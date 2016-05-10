@@ -830,11 +830,10 @@ span.portfolio-hover span {
 	display: inline-block;
 	text-align: center;
 	vertical-align: middle;
-	font: normal 18px "Open Sans", arial, sans-serif;
-	font-weight: 300;
 }
 
 .portfolio-title {
+	font: normal 14px "Open Sans", arial, sans-serif;
 	font-size: 14px;
 	text-transform: none;
 	color: #fff;
@@ -844,6 +843,7 @@ span.portfolio-hover span {
 }
 
 .portfolio-category {
+	font: normal 14px "Open Sans", arial, sans-serif;
 	font-size: 12px !important;
 	color: #fff;
 	padding: 0px 5px 5px 5px;
