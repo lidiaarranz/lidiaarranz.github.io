@@ -839,13 +839,13 @@ span.portfolio-hover span {
 	text-transform: none;
 	color: #fff;
 	margin:0;
-	padding: 5px;
+	padding: 0px 5px 0px 5px;
 }
 
 .portfolio-category {
 	font-size: 14px !important;
 	color: #fff;
-	padding: 5px;
+	padding: 0px 5px 0px 5px;
 }
 
 .modal {
