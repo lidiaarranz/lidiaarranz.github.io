@@ -844,7 +844,8 @@ span.portfolio-hover span {
 
 .portfolio-category {
 	font-size: 14px !important;
-	color:#fff;
+	color: #fff;
+	padding: 5px;
 }
 
 .modal {
