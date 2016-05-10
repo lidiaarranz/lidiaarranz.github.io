@@ -898,6 +898,7 @@ span.portfolio-hover span {
 .subtitle {
 	text-align: center;
 	color: #272727;
+	text-transform: uppercase;
 }
 
 .project-description {
