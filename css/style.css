@@ -835,7 +835,7 @@ span.portfolio-hover span {
 .portfolio-title {
 	font: normal 14px "Open Sans", arial, sans-serif;
 	font-size: 14px;
-	text-transform: none;
+	text-transform: uppercase;
 	color: #fff;
 	margin:0;
 	padding: 0px 5px 5px 5px;
