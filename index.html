@@ -96,7 +96,7 @@
 </head>
 <body class="royal_loader" data-spy="scroll" data-target="#myScrollSpy" data-offset="100">
 	<!-- Begin Cabecera -->
-	<div id="section0" class="jumbotron hero clearfix" data-top-bottom="background-position: 50% -200px;" data-bottom-top="background-position: 50% 100px;" data-anchor-target=".ticker h1">
+	<div id="section0" class="jumbotron hero clearfix" data-top-bottom="background-position: 50% -200px;" data-bottom-top="background-position: 50% 100px;">
 		<!-- Animación 1 -->
 		<div style="text-align: center;">
 			<div id="trigger-animacion1"></div>
@@ -179,8 +179,8 @@
 					<li><a href="#section1" data-id="section1" class="scroll-link">La escuela</a></li>
 					<li><a href="#section2" data-id="section2" class="scroll-link">Cursos</a></li>
 					<li><a href="#section3" data-id="section3" class="scroll-link">Precios</a></li>
-					<li><a href="#section4" data-id="section4" class="scroll-link">Condiciones</a></li>
-					<li><a href="#section5" data-id="section5" class="scroll-link">Contacto</a></li>
+<!-- 					<li><a href="#section4" data-id="section4" class="scroll-link">Condiciones</a></li>
+ -->					<li><a href="#section5" data-id="section5" class="scroll-link">Contacto</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -205,28 +205,31 @@
 			<div class="container" style="background-color: #ffd200;">
 				<div class="row">
 					<div id="content-holder">
-						<div data-scroll-reveal="enter top and move 50px over 1s" class="col-lg-3 col-md-3 col-xs-12 team-member-holder">
+						<div data-scroll-reveal="enter top and move 50px over 1s" class="col-lg-6 col-md-6 col-xs-12 team-member-holder">
 							<div class="organization-info-holder">
 								<h3 class="escuela-name">OBJETIVO</h3>
 								<hr class="white" data-scroll-reveal>
 								<p class="escuela-info-holder">El objetivo es ofrecer a los estudiantes, a profesionales y a toda persona interesada, un acercamiento a las nuevas herramientas y tendencias en las diferentes familias profesionales impartidas en la oferta educativa reglada de la Escuela Artediez.</p>
 							</div>
 						</div>
-						<div data-scroll-reveal="enter top and move 50px over 1s" class="col-lg-3 col-md-3 col-xs-12 team-member-holder">
+						<div data-scroll-reveal="enter top and move 50px over 1s" class="col-lg-6 col-md-6 col-xs-12 team-member-holder">
 							<div class="organization-info-holder">
 								<h3 class="escuela-name">CURSOS INTENSIVOS</h3>
 								<hr class="white" data-scroll-reveal>
 								<p class="escuela-info-holder">En esta edición, se ofertan cursos intensivos de varias áreas del diseño, como son gráfico, interiores, producto o moda, y con diversas metodologías, de manuales a digitales, del taller a la clase magistral.</p>
 							</div>
 						</div>
-						<div data-scroll-reveal="enter top and move 50px over 1s" class="col-lg-3 col-md-3 col-xs-12 team-member-holder">
+					</div>
+				</div>
+				<div class="row">
+						<div data-scroll-reveal="enter top and move 50px over 1s" class="col-lg-6 col-md-6 col-xs-12 team-member-holder">
 							<div class="organization-info-holder">
 								<h3 class="escuela-name">NUEVAS TENDENCIAS</h3>
 								<hr class="white" data-scroll-reveal>
 								<p class="escuela-info-holder">Tiene la ilusión de ser un referente en la docencia de las nuevas tendencias y herramientas del diseño, y complementar así la formación que la Escuela Artediez ofrece en sus diferentes Ciclos Formativos de Grado Superior.</p>
 							</div>
 						</div>
-						<div data-scroll-reveal="enter top and move 50px over 1s" class="col-lg-3 col-md-3 col-xs-12 team-member-holder">
+						<div data-scroll-reveal="enter top and move 50px over 1s" class="col-lg-6 col-md-6 col-xs-12 team-member-holder">
 							<div class="organization-info-holder">
 								<h3 class="escuela-name">APRENDER DISEÑO</h3>
 								<hr class="white" data-scroll-reveal>
@@ -424,20 +427,20 @@
 				<div class="col-lg-12">
 					<h3>Cursos</h3>
 					<hr>
-					<p>Estos son los cursos que ofertamos este año:</p>
+					<p>Estos son los cursos que ofertamos en esta III edición.</p>
 				</div>
 			</div>
 
 			<!-- Portfolio Filter -->
 			<div data-scroll-reveal="enter left and move 50px over 1s" class="container text-center">
 			  <ul class="nav nav-pills">
-			    <li class="filter" data-filter="all">TODOS</li>
-			    <li class="filter" data-filter="producto">PRODUCTO</li>
-			    <li class="filter" data-filter="moda">MODA</li>
-			    <li class="filter" data-filter="grafico">GRÁFICO</li>
-			    <li class="filter" data-filter="tipo">TIPOGRAFÍA</li>
-			    <li class="filter" data-filter="ilustracion">ILUSTRACIÓN</li>
-			    <li class="filter" data-filter="foto">FOTOGRAFÍA</li>
+			    <li class="filter" data-filter="all">Todos</li>
+			    <li class="filter" data-filter="producto">Producto</li>
+			    <li class="filter" data-filter="moda">Moda</li>
+			    <li class="filter" data-filter="grafico">Gráfico</li>
+			    <li class="filter" data-filter="tipo">Tipografía</li>
+			    <li class="filter" data-filter="ilustracion">Ilustración</li>
+			    <li class="filter" data-filter="foto">Fotografía</li>
 			  </ul>
 			</div>
 
@@ -447,19 +450,19 @@
 			  <ul id="myPortfolio" class="no-padding">
 			    <li class="item moda col-md-4 col-xs-6 no-padding">
 			    	<a href="cursos/patronaje-moda-ordenador.html">
-						<img src="img/cursos-thumb/patronaje.jpg" alt="..." />
+						<img src="img/cursos-thumb/patronaje.jpg" alt="Patronaje de moda por ordenador" />
 						<span class="portfolio-hover" style="background-color: #ec4346;">
 						  <span>
-						  	<span class="portfolio-title">PATRONAJE DE MODA POR ORDENADOR</span><br>
+						  	<span class="portfolio-title">Patronaje de moda por ordenador</span><br>
  						  	<!-- <span class="portfolio-category">Ignacio Trigo Caparrini</span></br> -->
-						  	<span class="portfolio-category">10H / 27 a 29 de junio / 10.00 a 14.00</span></br>
+						  	<span class="portfolio-category">Ignacio Trigo Caparrini</span>
 						  </span>
 						</span>
 					</a>
 			    </li>
 			     <li class="item ilustracion col-md-4 col-xs-6 no-padding">
 			    	<a href="cursos/comic.html">
-						<img src="img/cursos-thumb/comic.jpg" alt="..." />
+						<img src="img/cursos-thumb/comic.jpg" alt="Cómic para supervivientes" />
 						<span class="portfolio-hover" style="background: #fec629;">
 						  <span>
 						  	<span class="portfolio-title">Cómic para supervivientes</span><br>
@@ -470,10 +473,10 @@
 			    </li>
 			    <li class="item moda col-md-4 col-xs-6 no-padding">
 			    	<a href="cursos/estampados-moda.html">
-						<img src="img/cursos-thumb/pattern.jpg" alt="..." />
+						<img src="img/cursos-thumb/pattern.jpg" alt=""PRINTS" ESTAMPADOS PARA MODA" />
 						<span class="portfolio-hover" style="background-color: #ec4346;">
 						  <span>
-						  	<span class="portfolio-title">"PRINTS" ESTAMPADOS PARA MODA</span><br>
+						  	<span class="portfolio-title">"PRINTS" estampados para moda</span><br>
 						  	<span class="portfolio-category">Jorge Arévalo</span>
 						  </span>
 						</span>
@@ -481,7 +484,7 @@
 			    </li>
 			    <li class="item ilustracion col-md-4 col-xs-6 no-padding">
 			    	<a href="cursos/cuaderno-dibujo.html">
-						<img src="img/cursos-thumb/susan.jpg" alt="..." />
+						<img src="img/cursos-thumb/susan.jpg" alt="Taking it personally" />
 						<span class="portfolio-hover" style="background: #fec629;">
 						  <span>
 						  	<span class="portfolio-title">Taking it personally</span><br>
@@ -492,7 +495,7 @@
 			    </li>
 			    <li class="item foto col-md-4 col-xs-6 no-padding">
 			    	<a href="cursos/fotografia-producto-publicidad.html">
-						<img src="img/cursos-thumb/foto-pdto.jpg" alt="..." />
+						<img src="img/cursos-thumb/foto-pdto.jpg" alt="Advertising Product Photography Workshop" />
 						<span class="portfolio-hover"  style="background: #fec629;">
 						  <span>
 						  	<span class="portfolio-title">Advertising Product Photography Workshop</span><br>
@@ -503,7 +506,7 @@
 			    </li>
 			    <li class="item producto col-md-4 col-xs-6 no-padding">
 			    	<a href="cursos/iluminacion-interactiva.html">
-						<img src="img/cursos-thumb/iluminacion-interactiva.jpg" alt="..." />
+						<img src="img/cursos-thumb/iluminacion-interactiva.jpg" alt="Escaparatech (Angel Galán + Santiago Lizón)" />
 						<span class="portfolio-hover"  style="background: #a4cb57;">
 						  <span>
 						  	<span class="portfolio-title">Iluminación interactiva</span><br>
@@ -513,8 +516,8 @@
 					</a>
 			    </li>
 			    <li class="item grafico col-md-4 col-xs-6 no-padding">
-			    	<a href="cursos/infografias-interactivas.html">
-						<img src="img/cursos-thumb/" alt="..." />
+			    	<a href="cursos/infografias-html5.html">
+						<img src="img/cursos-thumb/" alt="Crea infografías interactivas en HTML5" />
 						<span class="portfolio-hover" style="background: #fec629;">
 						  <span>
 						  	<span class="portfolio-title">Crea infografías interactivas en HTML5</span><br>
@@ -525,7 +528,7 @@
 			    </li>
 			    <li class="item producto col-md-4 col-xs-6 no-padding">
 			    	<a href="cursos/maquetas-accesorios-vivienda.html">
-						<img src="img/cursos-thumb/iluminacion.jpg" alt="..." />
+						<img src="img/cursos-thumb/iluminacion.jpg" alt="One piece for all" />
 						<span class="portfolio-hover" style="background-color: #a4cb57">
 						  <span>
 						  	<span class="portfolio-title">One piece for all / Una pieza para todo</span><br>
@@ -536,7 +539,7 @@
 			    </li>
 			    <li class="item moda col-md-4 col-xs-6 no-padding">
 			    	<a href="cursos/moda-tecnologia.html">
-						<img src="img/cursos-thumb/moda-tec.jpg" alt="..." />
+						<img src="img/cursos-thumb/moda-tec.jpg" alt="Taller de moda y tecnología" />
 						<span class="portfolio-hover" style="background-color: #ec4346;">
 						  <span>
 						  	<span class="portfolio-title">Taller de moda y tecnología</span><br>
@@ -547,7 +550,7 @@
 			    </li>
 			    <li class="item grafico col-md-4 col-xs-6 no-padding">
 			    	<a href="cursos/publicaciones-interactivas.html">
-						<img src="img/cursos-thumb/" alt="..." />
+						<img src="img/cursos-thumb/" alt="Aprende a crear publicaciones interactivas" />
 						<span class="portfolio-hover" style="background: #fec629;">
 						  <span>
 						  	<span class="portfolio-title">Aprende a crear publicaciones interactivas</span><br>
@@ -558,7 +561,7 @@
 			    </li>
 			    <li class="item moda col-md-4 col-xs-6 no-padding">
 			    	<a href="cursos/relato-moda.html">
-						<img src="img/cursos-thumb/relato-moda.jpg" alt="..." />
+						<img src="img/cursos-thumb/relato-moda.jpg" alt="El Relato en Moda" />
 						<span class="portfolio-hover" style="background-color: #ec4346;">
 						  <span>
 						  	<span class="portfolio-title">El Relato en Moda. Sentimiento, concepto y proceso = ÉXITO</span><br>
@@ -569,7 +572,7 @@
 			    </li>
 			    <li class="item todos col-md-4 col-xs-6 no-padding">
 			    	<a href="cursos/relato-proyecto.html">
-						<img src="img/cursos-thumb/" alt="..." />
+						<img src="img/cursos-thumb/" alt="Cuéntame un cuento" />
 						<span class="portfolio-hover" style="background-color: #fec629">
 						  <span>
 						  	<span class="portfolio-title">Cuéntame un cuento: ¿cómo afrontar el relato de nuestro propio proyecto?</span><br>
@@ -580,11 +583,22 @@
 			    </li>
 			    <li class="item tipo col-md-4 col-xs-6 no-padding">
 			    	<a href="cursos/tipografia-creativa.html">
-						<img src="img/cursos-thumb/tipo.jpg" alt="..." />
+						<img src="img/cursos-thumb/tipo.jpg" alt="Happy (type)faces" />
 						<span class="portfolio-hover" style="background: #fec629;">
 						  <span>
 						  	<span class="portfolio-title">Happy (type)faces</span><br>
 						  	<span class="portfolio-category">Rubén Chumillas</span>
+						  </span>
+						</span>
+					</a>
+			    </li>
+			    <li class="item tipo col-md-4 col-xs-6 no-padding">
+			    	<a href="cursos/graffiti-street-art.html">
+						<img src="img/cursos-thumb/street.jpg" alt="Un paseo del graffiti al street art" />
+						<span class="portfolio-hover" style="background: #fec629;">
+						  <span>
+						  	<span class="portfolio-title">Un paseo del graffiti al street art</span><br>
+						  	<span class="portfolio-category">Spok</span>
 						  </span>
 						</span>
 					</a>
@@ -611,7 +625,7 @@
 					<div class="col-lg-10 col-lg-offset-1 page-title">
 						<h3 class="white">Precios</h3>
 						<hr class="white">
-						<p class="white">Hay dos modalidades de cursos, de 10 y de 15 horas. Los alumnos, ex-alumnos y profesores de artediez tienen un <b>20% de descuento</b>. La vinculación con artediez se justificará documentalmente el primer día del curso (con cualquier documento que demuestre la pertenencia a la escuela: carnet de biblioteca, matrícula, notas…).</p><p class="white">En la descripción de cada curso se especifican los requisitos del mismo, tanto de conocimientos como de materiales. Es responsabilidad del participante asegurarse de cumplirlas.
+						<p class="white">Hay dos modalidades de cursos, de 10 y de 15 horas. Los alumnos, ex-alumnos y profesores de artediez tienen un <b>20% de descuento</b>.</p><p class="white">En la descripción de cada curso se especifican los requisitos del mismo, tanto de conocimientos como de materiales. Es responsabilidad del participante asegurarse de cumplirlas.</p><p style="padding-top: 50px;" class="white">*La vinculación con artediez se justificará documentalmente el primer día del curso (con cualquier documento que demuestre la pertenencia a la escuela: carnet de biblioteca, matrícula, notas…).</p>
 					</div>
 
 					<div id="content-holder">
@@ -619,16 +633,16 @@
 						<!-- Cursos de 10H -->
 						<div data-scroll-reveal="enter top and move 50px over 1s" class="col-lg-6 col-md-6 col-xs-12 team-member-holder">
 							<div class="caja team-info-holder">
-								<h4 class="white">Cursos de 10H</h3>
-								<p class="white">70€</p><p class="white">Alumnos, ex-alumnos y profesores de Artediez 20% de descuento (55€).</p>
+								<h6 style="color: #" class="">Cursos de 10H</h6>
+								<h1 style="color: #" class="">70€</h1><p class="">Alumnos, ex-alumnos y profesores de Artediez 20% de descuento (55€).</p>
 							</div>
 						</div>
 
 						<!-- Cursos de 20H -->
 						<div data-scroll-reveal="enter bottom and move 50px over 1s" class="col-lg-6 col-md-6 col-xs-12 team-member-holder">
 							<div class="caja team-info-holder">
-								<h4 class="white">Cursos de 15H</h3>
-								<p class="white">105€</p><p class="white">Alumnos, ex-alumnos y profesores de Artediez 20% de descuento (84€).</p>
+								<h6 style="color: #" class="">Cursos de 15H</h6>
+								<h1 style="color: #" class="">105€</h1><p class="">Alumnos, ex-alumnos y profesores de Artediez 20% de descuento (84€).</p>
 							</div>
 						</div>
 
@@ -657,7 +671,7 @@
 						<hr data-scroll-reveal>
 						<div data-scroll-reveal class="condiciones-text">
 							<p>Las condiciones de la Escuela de Verano de Artediez son las siguientes:</p>
-							<div style="margin: 30px;">
+							<div style="margin: 50px;">
 								<a class="bolt-button-send" data-toggle="modal" href="condiciones.html" data-target="#myModal">Ver condiciones</a>
 							</div>
 						</div>
@@ -804,7 +818,7 @@
 			                        <!-- Replace the form action in the line below with your MailChimp embed action! For more informatin on how to do this please visit the Docs! -->
 			                        <form role="form" action="//artediez.us10.list-manage.com/subscribe/post?u=5d3257f7179ff7882df51ad10&amp;id=c279bde5c8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
 			                            <div class="input-group input-group-lg">
-			                                <input type="email" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Dirección de email">
+			                                <input type="email" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Email">
 			                                <span class="input-group-btn">
 			                                    <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">¡Suscribete!</button>
 			                                </span>
@@ -844,7 +858,7 @@
 								<div class="organization-info-holder">
 									<h3 class="org-name">COLABORA</h3>
 									<hr class="white" data-scroll-reveal>
-									<p class="org-info-holder">Di_mad</p>
+									<a class="org-info-holder" href="http://www.dimad.org/" target="blank">Di_mad</a>
 								</div>
 							</div>
 
@@ -854,7 +868,7 @@
 									<h3 class="org-name">ORGANIZA</h3>
 									<hr class="white" data-scroll-reveal>
 									<!-- <p class="org-info-holder">Artediez</p> -->
-									<img style="width: 100px; margin-top: -10px;" src="img/logo-artediez.svg"/>
+									<a href="http://artediez.es" target="blank"><img style="width: 100px; margin-top: -10px;" src="img/logo-artediez.svg"/></a>
 								</div>
 							</div>
 
@@ -863,7 +877,7 @@
 								<div class="organization-info-holder">
 									<h3 class="org-name">SEDES</h3>
 									<hr class="white" data-scroll-reveal>
-									<p class="org-info-holder">Escuela Artediez</p>
+									<a class="org-info-holder" href="http://artediez.es/contacto" target="blank">Escuela Artediez</a>
 								</div>
 							</div>
 
@@ -894,7 +908,7 @@
 
 			<!-- Créditos -->
 			<div class="col-lg-12 made-with-love">
-				<p class="no-margin">Edición 2016 - Diseño: Lidia Arranz</p>
+				<a href="https://www.behance.net/lidiaarranz" target="blank" class="no-margin">Edición 2016 - Diseño: Lidia Arranz</a>
 			</div>
 
 		</div>
