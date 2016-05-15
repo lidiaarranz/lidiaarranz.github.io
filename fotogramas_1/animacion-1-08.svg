@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="480px"
-	 height="960px" viewBox="0 0 480 960" enable-background="new 0 0 480 960" xml:space="preserve">
-<pattern  x="1793" y="5632" width="114" height="20" patternUnits="userSpaceOnUse" id="Nueva_muestra_de_motivo_4" viewBox="0 -20 114 20" overflow="visible">
-	<g>
-		<polygon fill="none" points="0,0 114,0 114,-20 0,-20 		"/>
-		<polygon fill="#FFFFFF" points="114,0 0,0 0,-10 114,-10 		"/>
-		<polygon fill="#2FA1BE" points="114,-10 0,-10 0,-20 114,-20 		"/>
-	</g>
-</pattern>
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="480px" height="960px" viewBox="0 0 480 960" enable-background="new 0 0 480 960" xml:space="preserve">
 <g id="gotas_copia_2">
 	<g id="_x31__copia_2">
 	</g>
@@ -24,7 +17,7 @@
 </g>
 <g id="guías" display="none">
 </g>
-<g id="Capa_1">
+<g id="Capa_1_1_">
 	<g>
 		<g>
 			<g>
@@ -49,21 +42,29 @@
 				<rect x="372" y="576" fill="#F0976B" width="8" height="192"/>
 				<rect x="388" y="576" fill="#F0976B" width="8" height="192"/>
 			</g>
-			<rect x="352" y="854" fill="#F0976B" width="64" height="54"/>
-			
-				<pattern  id="SVGID_1_" xlink:href="#Nueva_muestra_de_motivo_4" patternTransform="matrix(1.5791 0 0 1.5791 2714.166 6999.3047)">
-			</pattern>
-			<path fill="url(#SVGID_1_)" d="M384,751.458c-17.673,0-32,14.328-32,32v111c0-17.672,14.327-32,32-32s32,14.328,32,32v-111
-				C416,765.786,401.673,751.458,384,751.458z"/>
-			<path d="M384,960.458c17.673,0,32-14.325,32-32V896h-64v32.458C352,946.133,366.327,960.458,384,960.458z"/>
 			<polygon fill="#F0976B" points="418,896 418,1043 414,1043 414,1045 418,1045 418,1052 426,1052 426,896 			"/>
 			<polygon fill="#F0976B" points="350,1043 350,896 342,896 342,1052 350,1052 350,1045 354,1045 354,1043 			"/>
-			<g>
-				<path fill="#EC4346" d="M416,783.457c0-17.673-14.326-32-32-32c-17.672,0-32,14.327-32,32V791h64V783.457z"/>
-			</g>
 		</g>
 	</g>
 </g>
 <g id="txt">
+</g>
+<rect x="352" y="853.544" fill="#F0976B" width="64" height="54"/>
+<path d="M384,960c17.673,0,32-14.326,32-32v-32.456h-64V928C352,945.674,366.327,960,384,960z"/>
+<g>
+	<defs>
+		<path id="SVGID_1_" d="M384,751c-17.673,0-32,14.327-32,32v111c0-17.673,14.327-32,32-32s32,14.327,32,32V783
+			C416,765.327,401.673,751,384,751z"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<rect x="304" y="737.044" clip-path="url(#SVGID_2_)" fill="#FFFFFF" width="161.5" height="197"/>
+	<rect x="348" y="797.044" clip-path="url(#SVGID_2_)" fill="#2FA1BE" width="74.5" height="16"/>
+	<rect x="348" y="828.544" clip-path="url(#SVGID_2_)" fill="#2FA1BE" width="74.5" height="16"/>
+	<rect x="348" y="860.544" clip-path="url(#SVGID_2_)" fill="#2FA1BE" width="74.5" height="16"/>
+</g>
+<g>
+	<path fill="#EC4346" d="M416,782.998c0-17.673-14.326-32-32-32c-17.672,0-32,14.327-32,32v7.546h64V782.998z"/>
 </g>
 </svg>

@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="480px"
-	 height="960px" viewBox="0 0 480 960" enable-background="new 0 0 480 960" xml:space="preserve">
-<pattern  x="4098" y="5632" width="114" height="20" patternUnits="userSpaceOnUse" id="Nueva_muestra_de_motivo_4" viewBox="0 -20 114 20" overflow="visible">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="480px" height="960px" viewBox="0 0 480 960" enable-background="new 0 0 480 960" xml:space="preserve">
+<pattern  x="20.5" y="508.5" width="114" height="20" patternUnits="userSpaceOnUse" id="SVGID_1_" viewBox="0 -20 114 20" overflow="visible">
 	<g>
 		<polygon fill="none" points="0,0 114,0 114,-20 0,-20 		"/>
-		<polygon fill="#FFFFFF" points="114,0 0,0 0,-10 114,-10 		"/>
-		<polygon fill="#2FA1BE" points="114,-10 0,-10 0,-20 114,-20 		"/>
+		<g>
+			<polygon fill="none" points="0,-20 114,-20 114,0 0,0 			"/>
+			<polygon fill="#FFFFFF" points="114,-20 0,-20 0,-10 114,-10 			"/>
+			<polygon fill="#2FA1BE" points="114,-10 0,-10 0,0 114,0 			"/>
+		</g>
 	</g>
 </pattern>
 <g id="gotas_copia_2">
@@ -24,7 +27,7 @@
 </g>
 <g id="guías" display="none">
 </g>
-<g id="Capa_1">
+<g id="Capa_1_1_">
 	<g>
 		<g>
 			<g>
@@ -37,12 +40,11 @@
 			<path fill="#FEC629" d="M240,239.31c17.673,0,32-14.327,32-32V192h-64v15.31C208,224.982,222.327,239.31,240,239.31z"/>
 		</g>
 		<rect x="352" y="313" fill="#F0976B" width="64" height="46"/>
-		
-			<pattern  id="SVGID_1_" xlink:href="#Nueva_muestra_de_motivo_4" patternTransform="matrix(1.5791 0 0 1.5791 2191.4639 7060.6504)">
+		<pattern  id="SVGID_2_" xlink:href="#SVGID_1_" patternTransform="matrix(1.5791 0 0 -1.5791 10897.4199 -32481.8711)">
 		</pattern>
-		<path fill="url(#SVGID_1_)" d="M384,256.31c-17.673,0-32,14.326-32,32v62c0-17.674,14.327-32,32-32s32,14.326,32,32v-62
+		<path fill="url(#SVGID_2_)" d="M384,256.31c-17.673,0-32,14.326-32,32v62c0-17.674,14.327-32,32-32s32,14.326,32,32v-62
 			C416,270.636,401.673,256.31,384,256.31z"/>
-		<path d="M384,416.31c17.673,0,32-14.327,32-32V352h-64v32.31C352,401.982,366.327,416.31,384,416.31z"/>
+		<path d="M384,416.31c17.673,0,32-14.326,32-32V352h-64v32.31C352,401.982,366.327,416.31,384,416.31z"/>
 		<polygon fill="#F0976B" points="418,352 418,499 414,499 414,501 418,501 418,508 426,508 426,352 		"/>
 		<polygon fill="#F0976B" points="350,499 350,352 342,352 342,508 350,508 350,501 354,501 354,499 		"/>
 		<g>
@@ -58,7 +60,7 @@
 			<path d="M108.628,50.9"/>
 			<path fill="#FEC629" d="M96,127.31c-17.673,0-32-14.328-32-32v113c0,17.672,14.327,32,32,32s32-14.328,32-32v-113
 				C128,112.982,113.673,127.31,96,127.31z"/>
-			<path d="M96.536,32c-17.673,0-32,14-32,32h40.029l2.029-5.814l2.027-5.894l2.027,5.853L112.675,64h15.86
+			<path d="M96.536,32c-17.674,0-32,14-32,32h40.028l2.029-5.814l2.027-5.894l2.026,5.853L112.675,64h15.86
 				C128.536,46,114.208,32,96.536,32z"/>
 			<circle cx="96.536" cy="24.31" r="8"/>
 		</g>
@@ -68,5 +70,26 @@
 	</g>
 </g>
 <g id="txt">
+</g>
+<g>
+	<defs>
+		<rect id="SVGID_3_" x="324.166" y="295.834" width="112" height="61.333"/>
+	</defs>
+	<clipPath id="SVGID_4_">
+		<use xlink:href="#SVGID_3_"  overflow="visible"/>
+	</clipPath>
+	<g clip-path="url(#SVGID_4_)">
+		<defs>
+			<path id="SVGID_5_" d="M384,207.456c-17.673,0-32,14.327-32,32v111c0-17.673,14.327-32,32-32s32,14.327,32,32v-111
+				C416,221.783,401.673,207.456,384,207.456z"/>
+		</defs>
+		<clipPath id="SVGID_6_">
+			<use xlink:href="#SVGID_5_"  overflow="visible"/>
+		</clipPath>
+		<rect x="304" y="193.5" clip-path="url(#SVGID_6_)" fill="#FFFFFF" width="161.5" height="197"/>
+		<rect x="348" y="253.5" clip-path="url(#SVGID_6_)" fill="#2FA1BE" width="74.5" height="16"/>
+		<rect x="348" y="285" clip-path="url(#SVGID_6_)" fill="#2FA1BE" width="74.5" height="16"/>
+		<rect x="348" y="317" clip-path="url(#SVGID_6_)" fill="#2FA1BE" width="74.5" height="16"/>
+	</g>
 </g>
 </svg>
