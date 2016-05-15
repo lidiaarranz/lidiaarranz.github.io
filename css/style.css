@@ -1166,8 +1166,8 @@ textarea.form-control {
 	.logo-icon-holder { width:30px; height:30px; }
 	.hero { background-size:cover; background-position:top center!important; }
 	.navbar { height: 60px; }
-	.nav-main .navbar-header { height: 60px; }
-    .navbar-toggle { background-color: transparent; border:0; padding:13px 0 0 0; border-radius:0; margin-top:0; }
+/*	.nav-main .navbar-header { height: 60px; }
+*/    .navbar-toggle { background-color: transparent; border:0; padding:13px 0 0 0; border-radius:0; margin-top:0; }
     .navbar-brand { margin-top: 1px; padding: 19px 15px 0px 15px; }
     .navspacer { height:60px; }
     	.navbar-nav li a { line-height:60px; }
