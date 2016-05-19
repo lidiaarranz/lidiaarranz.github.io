@@ -67,7 +67,7 @@ a:hover.black{
 	text-decoration: underline;
 }
 
-h3.white,h4.white,p.white {
+h1.white,h4.white,p.white {
 	color: #fff;
 }
 
@@ -100,17 +100,19 @@ h1,h2,h3,h4,h5,h6 {
 	margin: 20px 0 15px;
 }
 
-h1 {
+p.precio {
+	color: #555;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	line-height: 1.17em;
+	margin: 20px 0 15px;
 	font-size: 3.5em;
 	text-transform: uppercase;
 }
 
-h2 {
-	font-size: 2.4em;
-	text-transform: uppercase;
-}
 
-h3 {
+
+h1 {
 	font-size: 30px;
 	text-transform: uppercase;
 }
@@ -125,7 +127,7 @@ h5 {
 	text-transform: uppercase;
 }
 
-h6 {
+h2 {
 	font-size: 1em;
 	text-transform: uppercase;
 }
@@ -641,11 +643,11 @@ ul.nav a:hover {
 
 /* =Summary
 -------------------------------------------------------------- */
-.summary { padding: 120px 0 120px 0; background-color: #fff; text-align: center; }
+.summary { padding: 60px 0 60px 0; background-color: #fff; text-align: center; }
 
 /* =Portfolio
 -------------------------------------------------------------- */
-.portfolio { padding: 120px 0 120px 0; }
+.portfolio { padding: 60px 0 60px 0; }
 
 #myPortfolio .item {
   display: none;
@@ -767,8 +769,8 @@ ul.nav a:hover {
 /* =Team
 -------------------------------------------------------------- */
 .team { 
-	padding:120px 0 120px 0; 
-	background-color:#ffd200;
+	padding: 60px 0 60px 0; 
+	background-color: #ffd200;
 	}
 
 .team img {
@@ -1041,7 +1043,7 @@ ul.nav a:hover {
 
 /* =Contact
 -------------------------------------------------------------- */
-.contact { padding:120px 0 120px 0; }
+.contact { padding:60px 0 60px 0; }
 
 .contact-info {
 	text-align: center;
@@ -1086,7 +1088,7 @@ textarea.form-control {
 /* =Footer
 -------------------------------------------------------------- */
 #footer {
-	padding: 40px 0 40px 0;
+	padding: 40px 0 10px 0;
 	background-color: #333; 
 }
 
@@ -1229,7 +1231,7 @@ textarea.form-control {
 
 /* Portrait tablets and medium desktops */
 @media (min-width:992px) {
-	.portfolio { padding:120px 0 120px 0; }
+	.portfolio { padding:60px 0 60px 0; }
 	.cta p { margin:25px 0 25px 0; }
 	.contact-info { padding-bottom:70px; }
 }
